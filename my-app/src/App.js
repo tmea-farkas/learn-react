@@ -1,10 +1,10 @@
 import css from "./App.module.css";
-import ControlledForm from "./components/ControlledForm";
+import { SearchBar } from "./components/SearchBar";
 
 function App() {
   return (
     <div className={css.App}>
-      <ControlledForm />
+      <SearchBar />
     </div>
   );
 }
